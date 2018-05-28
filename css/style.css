@@ -1,0 +1,52 @@
+body {
+  background: #ecf0f1;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+  font-size: 13px;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  line-height: 1.154;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+.game .left {
+  text-align: left;
+  margin: 10px 10px;
+  width: 255px;
+  float: left;
+}
+.game button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.game .center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: block !important;
+  width: 255px;
+  float: left;
+}
+
+.game .center .cookie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 128px;
+  width: 128px;
+}
+@keyframes eye {
+   0% { transform: none; }
+   50% { transform: rotateZ(90deg); }
+   100% { transform: none; }
+}

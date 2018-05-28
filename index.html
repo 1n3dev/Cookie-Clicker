@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="game">
+      <div class="left">
+        <div class="buyupgrade-1">
+          <span>Курсор кликает за вас раз в пять секунд. <br>
+          <span id='cursor-cost'>Стоймость курсора: 0 печенек.</span> <br>
+          <span id='cursors'>У вас есть 0 курсоров.</span></span> <br> <br>
+          <button onclick="buyCursor()">Купить Курсор</button>
+        </div>
+        <br> <br>
+        <div class="buyupgrade-2">
+          <span>Ферма кликает за вас дваджы в прять секунд. <br>
+          <span id='farm-cost'>Стоймость фермы: 0 печенек.</span> <br>
+          <span id='farms'>У васть есть 0 ферм.</span></span> <br> <br>
+          <button onclick="buyFarm()">Купить ферму</button>
+        </div>
+      </div>
+
+      <div class="center">
+        <p id="cookiestext"></p>
+        <a href="#" onclick="add()"> <img src="img/cookie.png" class="cookie" alt="Cookie"> </a>
+      </div>
+
+    </div>
+
+
+    <!-- script -->
+    <script src="js/game.js" charset="utf-8"></script>
+
+
+  </body>
+</html>
